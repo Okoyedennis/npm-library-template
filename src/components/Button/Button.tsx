@@ -8,7 +8,7 @@ export interface ButtonProps
 const Button: React.FC<ButtonProps> = ({ variant, ...props }) => {
   return (
     <button {...props} className="text-blue-500">
-      Dennis ko
+      Hello World
     </button>
   );
 };
